@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisis Compass</title>
+    <link rel="icon" type="image/png" href="../media/Crisis-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="shared.css">
+</head>
+<body class="home-page">
+    <nav class="navbar">
+        <div class="logo">
+            <img class="logo-image" src="../media/Crisis-removebg-preview.png" alt="Crisis Compass Logo">
+            <span class="brand">Crisis <b>Compass</b></span>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li class="dropdown">
+                <a href="#">Natural Disaster &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Earthquake.html">Earthquake</a></li>
+                    <li><a href="Flood.html">Flood</a></li>
+                    <li><a href="Tornado.html">Tornado</a></li>
+                    <li><a href="Tsunami.html">Tsunami</a></li>
+                    <li><a href="fire-safety.html">Fire Safety</a></li>
+                </ul>
+            </li>
+            <li><a href="Safety_tips.html">Safety Tips</a></li>
+        </ul>
+    </nav>
+
+    <a href="emergency.html" class="emergency-bar">
+        <span class="em-badge">24/7 Help</span>
+        <span class="em-text">Call Emergency Services</span>
+        <span class="em-logos">
+            <img src="../media/medicial.png" alt="Medical Support">
+            <img src="../media/fire.png" alt="Fire Force">
+            <img src="../media/police.png" alt="Police">
+        </span>
+    </a>
+
+    <main class="home-main">
+        <div class="container">
+            <div id="homeSafetySlides" class="carousel slide home-carousel mb-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#homeSafetySlides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#homeSafetySlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#homeSafetySlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../media/flood.jpg" class="d-block w-100" alt="Fire safety preparation">
+                        <div class="carousel-caption">
+                            <h2>Prepare before danger starts.</h2>
+                            <p>Simple steps are easier to remember when people are nervous.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../media/fire-prevention.webp" class="d-block w-100" alt="Fire prevention safety">
+                        <div class="carousel-caption">
+                            <h2>Prevent risks at home.</h2>
+                            <p>Small habits like checking heat, wires, exits, and supplies can prevent bigger problems.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../media/first-aid-kit-screenshot.png" class="d-block w-100" alt="Emergency kit supplies">
+                        <div class="carousel-caption">
+                            <h2>Keep emergency supplies ready.</h2>
+                            <p>A small kit can really help when power, roads, or phones are not working.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#homeSafetySlides" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#homeSafetySlides" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="hero-section text-center shadow-sm">
+                <h1 class="display-4 fw-bold">Navigating Disasters in Yangon</h1>
+                <p class="lead px-3">A simple student-made guide for staying safer before, during, and after emergencies in Yangon.</p>
+            </div>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-10">
+                    <div class="accordion" id="homeAccordion">
+                        <div class="accordion-item shadow-sm">
+                            <div class="accordion-header"><h3 class="custom-btn">Why Crisis Compass Exists</h3></div>
+                            <div class="accordion-body">
+                                Natural disasters can happen without much warning. We made Crisis Compass so students, families, and neighbours can find simple safety steps in one place.
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow-sm">
+                            <div class="accordion-header"><h3 class="custom-btn">Our Vision</h3></div>
+                            <div class="accordion-body">
+                                We want more people in Yangon to know the basic steps that can keep them safer during emergencies.
+                            </div>
+                        </div>
+
+                        <div class="accordion-item shadow-sm">
+                            <div class="accordion-header"><h3 class="custom-btn">Our Mission</h3></div>
+                            <div class="accordion-body">
+                                Our mission is to share safety guides that are easy to read, easy to remember, and useful when someone needs help quickly.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Crisis Compass</h3>
+        <p class="footer-lead">Safety Tips &amp; Guides for Everyone!</p>
+        <ul>
+            <li><a class="footer-link" href="mailto:info@crisiscompass.org"><span class="footer-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 2-8 5L4 6h16Zm0 12H4V8l8 5 8-5v10Z"></path></svg></span><span>Email - info@crisiscompass.org</span></a></li>
+            <li><a class="footer-link" href="#"><span class="footer-icon"><svg viewBox="0 0 24 24"><path d="M12 2c-3.86 0-7 3.14-7 7 0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"></path></svg></span><span>Location - Online</span></a></li>
+            <li><a class="footer-link" href="tel:+95785181672"><span class="footer-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.07 21 3 13.93 3 5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2Z"></path></svg></span><span>Phone - +95 785181672</span></a></li>
+        </ul>
+        <p>&copy; 2026 Crisis Compass. All rights reserved. Developed by Unity</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
